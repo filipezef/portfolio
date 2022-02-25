@@ -32,13 +32,16 @@
 
 <!-- #################### About #################### -->
 <section class="page-section bg-primary" id="about">
-	<div class="container px-4 px-lg-5 mt-3">
+	<div class="container px-4 px-lg-5">
 		<div class="row gx-4 gx-lg-5 justify-content-center">
 			<div class="col-lg-8 text-center">
-				<h2 class="text-white mt-0 mb-5"><strong>Find out</strong> about me:</h2>
-
-
-				<h2 class="text-white">
+				<h2 class="text-white mt-0">Available for hiring!</h2>
+				<p class="text-white-75 mt-4 mb-5">
+				I have confidence in my delivery capacity and commitment and I seek the opportunity to provide these qualities
+				 acting as a software Engineer.
+				</p>
+				<h2 class="text-white mt-0"><strong>Find out more</strong></h2>
+				<h2 class="text-white mt-4 mb-5">
 				<%= link_to "https://github.com/filipezef", target: :_blank do %>
 					<i class="bi bi-github text-white me-4"></i>
 				<% end %>
@@ -47,10 +50,6 @@
 				<% end %>
 				<small><a class="text-white zeferino" href="https://www.hackerrank.com/filipezef" target= "_blank" %>HackerRank</a></small>
 				</h2>
-				<p class="text-white-75 mt-4 mb-5">
-				I have confidence in my delivery capacity and commitment and I seek the opportunity to provide these qualities
-				 acting as a software Engineer.
-				</p>
 				<a class="btn btn-light btn-xl" href="#services">webapps</a>
 			</div>
 		</div>
@@ -64,20 +63,24 @@
 		<div class="row gx-4 gx-lg-5">
 			<div class="col-lg-3 col-md-6 text-center">
 				<div class="mt-5">
-					<div class="mb-2"><i class="bi bi-collection fs-1 text-primary"></i></div>
-					<h3 class="h4 mb-2">ZefBlog</h3>
-					<p class="text-muted mb-0">Repo for Rails articles.</p>
-					<p class="text-muted mb-0">Features: authentication (logged in/out state),
-						admin user and access level control (UI and back-end); </p>
+					<%= link_to "https://zeferino.herokuapp.com/articles", class: "zeferino", target: :_blank do %>
+						<div class="mb-2"><i class="bi bi-collection fs-1 text-primary"></i></div>
+						<h3 class="h4 mb-2 text-black">ZefBlog</h3>
+						<p class="text-muted mb-0">Rails articles repo</p>
+						<p class="text-muted mb-0">Features: authentication (logged in/out state),
+							admin user and access level control (UI + back-end)</p>
+					<% end %>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-6 text-center">
 				<div class="mt-5">
-					<div class="mb-2"><i class="bi bi-intersect fs-1 text-primary"></i></div>
-					<h3 class="h4 mb-2">ZEFcommerce</h3>
-					<p class="text-muted mb-0">Ecommerce webapp.</p>
-					<p class="text-muted mb-0">Features: authentication (logged in/out state),
-						admin user and access level control (UI and back-end); </p>
+					<%= link_to "https://zefcommerce.herokuapp.com", class: "zeferino", target: :_blank do %>
+						<div class="mb-2"><i class="bi bi-intersect fs-1 text-primary"></i></div>
+						<h3 class="h4 mb-2 text-black">ZEFcommerce</h3>
+						<p class="text-muted mb-0">Ecommerce webapp</p>
+						<p class="text-muted mb-0">Features: authentication (logged in/out state),
+							admin user and access level control (UI + back-end)</p>
+					<% end %>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-6 text-center">
@@ -89,9 +92,9 @@
 			</div>
 			<div class="col-lg-3 col-md-6 text-center">
 				<div class="mt-5">
-					<div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
-					<h3 class="h4 mb-2">Made with Love</h3>
-					<p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
+					<div class="mb-2"><i class="bi bi-question-square fs-1 text-primary"></i></div>
+					<h3 class="h4 mb-2">Next app</h3>
+					<p class="text-muted mb-0">Under construction</p>
 				</div>
 			</div>
 		</div>
