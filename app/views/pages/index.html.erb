@@ -53,23 +53,12 @@
 		</div>
 	</div>
 </section>
-<!-- #################### Webapps #################### -->
+<!-- #################### Web applications #################### -->
 <section class="page-section" id="webapps">
 	<div class="container px-4 px-lg-5">
 		<h2 class="text-center mt-0">Web applications</h2>
 		<hr class="divider" />
 		<div class="row gx-4 gx-lg-5">
-			<div class="col-lg-3 col-md-6 text-center">
-				<div class="mt-5">
-					<%= link_to "https://zefblog.herokuapp.com/", class: "zeferino", target: :_blank do %>
-						<div class="mb-2"><i class="bi bi-collection fs-1 text-primary"></i></div>
-						<h3 class="h4 mb-2 text-black">ZefBlog</h3>
-						<p class="text-muted mb-0">Rails articles repo</p>
-						<p class="text-muted mb-0">Features: authentication (logged in/out state),
-							admin user and access level control (UI + back-end)</p>
-					<% end %>
-				</div>
-			</div>
 			<div class="col-lg-3 col-md-6 text-center">
 				<div class="mt-5">
 					<%= link_to "https://zefcommerce.herokuapp.com", class: "zeferino", target: :_blank do %>
@@ -83,9 +72,23 @@
 			</div>
 			<div class="col-lg-3 col-md-6 text-center">
 				<div class="mt-5">
-					<div class="mb-2"><i class="bi bi-file-person fs-1 text-primary"></i></div>
-					<h3 class="h4 mb-2">ZefPortfolio</h3>
-					<p class="text-muted mb-0">This webapp :)</p>
+					<%= link_to "https://zefblog.herokuapp.com/", class: "zeferino", target: :_blank do %>
+						<div class="mb-2"><i class="bi bi-collection fs-1 text-primary"></i></div>
+						<h3 class="h4 mb-2 text-black">ZefBlog</h3>
+						<p class="text-muted mb-0">Rails articles repo</p>
+						<p class="text-muted mb-0">Features: authentication (logged in/out state),
+							admin user and access level control (UI + back-end)</p>
+					<% end %>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 text-center">
+				<div class="mt-5">
+					<%= link_to "https://tracker-z.herokuapp.com/", class: "zeferino", target: :_blank do %>
+						<div class="mb-2"><i class="bi bi-currency-exchange fs-1 text-primary"></i></i></div>
+						<h3 class="h4 mb-2 text-black">Tracker-Z</h3>
+						<p class="text-muted mb-0">Stock tracker webapp</p>
+						<p class="text-muted mb-0">Features: devise for authentication, IEX Cloud API dependent</p>
+					<% end %>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-6 text-center">
@@ -104,7 +107,7 @@
 		<div class="row g-0">
 			<div class="col-lg-4 col-sm-6">
 				<%= link_to "https://zefcommerce.herokuapp.com", class: "portfolio-box", title: "ZEFcommerce", target: :_blank do %>
-					<%= image_tag "portfolio/fullsize/1-new.JPG", class: "img-fluid", alt: "ZEFcommerce" %>
+					<%= image_tag "portfolio/fullsize/2-new.JPG", class: "img-fluid", alt: "ZEFcommerce main page image" %>
 					<div class="portfolio-box-caption">
 						<div class="project-category text-white-50">Blog</div>
 						<div class="project-name">ZefBlog</div>
@@ -113,7 +116,7 @@
 			</div>
 			<div class="col-lg-4 col-sm-6">
 				<%= link_to "https://zefblog.herokuapp.com", class: "portfolio-box", title: "ZefBlog", target: :_blank do %>
-					<%= image_tag "portfolio/fullsize/2-new.JPG", class: "img-fluid", alt: "ZefBlog" %>
+					<%= image_tag "portfolio/fullsize/1-new.JPG", class: "img-fluid", alt: "ZefBlog main page image" %>
 					<div class="portfolio-box-caption">
 						<div class="project-category text-white-50">Ecommerce webapp</div>
 						<div class="project-name">ZEFcommerce</div>
@@ -121,24 +124,17 @@
 				<% end %>
 			</div>
 			<div class="col-lg-4 col-sm-6">
-				<%= link_to "#page-top", class: "portfolio-box", title: "Portfolio" do %>
-					<%= image_tag "portfolio/fullsize/3-new.JPG", class: "img-fluid", alt: "FilipeZeferino", target: :_blank %>
+				<%= link_to "https://tracker-z.herokuapp.com/", class: "portfolio-box", title: "Tracker-Z", target: :_blank do %>
+					<%= image_tag "portfolio/fullsize/4-new.JPG", class: "img-fluid", alt: "Tracker-Z main page image", target: :_blank %>
 					<div class="portfolio-box-caption">
-						<div class="project-category text-white-50">Landing page</div>
-						<div class="project-name">Portfolio</div>
+						<div class="project-category text-white-50">Stock tracking webapp</div>
+						<div class="project-name">Tracker-Z</div>
 					</div>
 				<% end %>
 			</div>
 		</div>
 	</div>
 </div>
-<!-- #################### Call to action #################### -->
-<section class="page-section bg-dark text-white">
-	<div class="container px-4 px-lg-5 text-center">
-		<h2 class="mb-4">New apps are comming!</h2>
-		<a class="btn btn-light btn-xl mt-3" href="#contact">contact now!</a>
-	</div>
-</section>
 <!-- #################### Contact #################### -->
 <section class="page-section" id="contact">
 	<div class="container px-4 px-lg-5">
