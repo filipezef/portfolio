@@ -1,24 +1,10 @@
-# README
+# Landing page for portfolio presentation
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Dependencies:
+<ul>
+  <li>Bootstrap 5.1 (additionally Popper and Webpacker)</li>
+  <li>Bootstrap Icons (CDN)</li>
+ </ul>
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### App based on Rails 6 and ruby 2.7.4.1.
+### Hosted by heroku -> https://zeferino.herokuapp.com/
